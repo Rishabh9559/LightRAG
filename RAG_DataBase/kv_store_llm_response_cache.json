@@ -1486,6 +1486,42 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "list some medicne for acne"
+    },
+    "263eab821f2c7d948964041d3bdf32d9": {
+      "return": "{\"high_level_keywords\": [\"Health\", \"Illness\", \"Self-care\"], \"low_level_keywords\": [\"Symptoms\", \"Remedies\", \"Medical advice\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "i am feeling sick, what i do"
+    },
+    "b2c813a7732c007407369112b081f0f9": {
+      "return": "{\"high_level_keywords\": [\"Skin condition\", \"Facial skin\", \"Skin irritation\"], \"low_level_keywords\": [\"Red spots\", \"Face\", \"Treatment\", \"Remedies\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "red spots on face. what i should do"
+    },
+    "7d84b9d3cb02603e276d1cc5528775e0": {
+      "return": "{\"high_level_keywords\": [\"Acne prevention\", \"Skin health\"], \"low_level_keywords\": [\"Pimples\", \"Skin care\", \"Cleanliness\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "how i prevent from acne"
+    },
+    "9c480b32661be80b62ed31c09b4706e4": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Skin condition\"], \"low_level_keywords\": [\"Pimples\", \"Skin\", \"Inflammation\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what ia acne"
     }
   },
   "naive": {
