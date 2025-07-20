@@ -1396,6 +1396,156 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "how i prevent from Acne?"
+    },
+    "81993890de8b48f7c7e8efca12fe2f85": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Skin condition\"], \"low_level_keywords\": [\"Pimples\", \"Skin\", \"Inflammation\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne"
+    },
+    "180d4f496fcdd1d1131a26465f173fba": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Skin condition\"], \"low_level_keywords\": [\"Pimples\", \"Skin\", \"Inflammation\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne?"
+    },
+    "ec4e572b0eb71b012f4515d9061b0ceb": {
+      "return": "{\"high_level_keywords\": [\"Abdominal aorta ultrasound\", \"Medical imaging\", \"Diagnostic procedure\"], \"low_level_keywords\": [\"Abdominal aorta\", \"Ultrasound\", \"Diagnosis\", \"Aorta\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is Abdominal aorta ultrasound?"
+    },
+    "a830453428daa79aae6f9ec5b6a5765a": {
+      "return": "{\"high_level_keywords\": [\"Abdominal aorta\", \"Ultrasound\", \"Diagnosis\"], \"low_level_keywords\": [\"Aorta ultrasound\", \"Medical diagnosis\", \"Imaging techniques\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "how Abdominal aorta ultrasound be diagnosed."
+    },
+    "7c9f0071b9f86ab4b32c74b3ae594b00": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Diagnosis\"], \"low_level_keywords\": [\"Symptoms\", \"Dermatologist\", \"Skin examination\", \"Medical history\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "how we diagnosed acne?"
+    },
+    "25f12c448a50a153f8ded0c1d0b7bb2a": {
+      "return": "{\"high_level_keywords\": [\"Java programming\", \"Addition operation\", \"Basic arithmetic\"], \"low_level_keywords\": [\"Code\", \"Two numbers\", \"Java\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "write a code for add two number in java"
+    },
+    "ad41dc984dfde9a141737504cee6aee1": {
+      "return": "{\"high_level_keywords\": [\"Acne treatment\", \"Medication\"], \"low_level_keywords\": [\"Acne\", \"Medicine\", \"Topical treatments\", \"Oral medications\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "list some medicne for acne?"
+    },
+    "5cbbcbda119499df6388099caa34ad89": {
+      "return": "{\"high_level_keywords\": [\"Identity\", \"Self-awareness\"], \"low_level_keywords\": [\"User\", \"Personal information\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "who am i"
+    },
+    "ca8f1c6cce90e45f9eb85b7d3ba065c3": {
+      "return": "{\"high_level_keywords\": [\"Identity\", \"Self-awareness\"], \"low_level_keywords\": [\"User\", \"Personal information\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "who am i?"
+    },
+    "e5b2638a773d036d92206e7b9de6768b": {
+      "return": "{\"high_level_keywords\": [\"Acne treatment\", \"Skin care\", \"Medication\"], \"low_level_keywords\": [\"Acne\", \"Medicine\", \"Topical treatments\", \"Oral medications\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "list some medicne for acne"
+    }
+  },
+  "naive": {
+    "54e524f9caebe9f766a23c1a57d178f6": {
+      "return": "Acne is a common skin disease characterized by pimples on the face, chest, and back, occurring when skin pores become clogged with oil, dead skin cells, and bacteria.\n\n### Acne Information:\n*   **Definition:** Acne is a common skin disease with pimples on the face, chest, and back.\n*   **Description:** Acne vulgaris is the most common skin disease, affecting nearly 17 million people in the U.S. It usually begins at puberty and worsens during adolescence, with nearly 85% of people developing it between 12-25 years.\n*   **Causes and Symptoms:** The exact cause is unknown, but risk factors include age, gender, heredity, hormonal changes, diet, drugs, personal hygiene, cosmetics, environment, and stress. Acne is usually not conspicuous, but inflamed lesions may cause pain, tenderness, itching, or swelling.\n*   **Diagnosis:** Acne patients are often treated by family doctors, with complicated cases referred to dermatologists or endocrinologists. Diagnosis involves a complete medical history and physical examination.\n*   **Treatment:** Acne treatment reduces sebum production, removes dead skin cells, and kills bacteria with topical and oral medications. Treatment depends on the severity of the acne.\n*   **Prevention:** There are no sure ways to prevent acne, but steps to minimize flare-ups include gentle washing, avoiding abrasive cleansers, using noncomedogenic makeup, shampooing often, eating a balanced diet, limiting sun exposure, avoiding picking blemishes, and reducing stress.\n\n### References\n*   [DC] unknown_source\n*   [DC] unknown_source\n*   [DC] unknown_source\n",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne?"
+    },
+    "48eda20ed06c39372b5d5f793a180c18": {
+      "return": "Here's information about abdominal aorta ultrasounds based on the provided documents:\n\n### Definition\nAbdominal aorta ultrasound utilizes ultrasound technology to visualize the inside of a patient's abdomen without surgery. High-frequency sound waves are transmitted into the body, bouncing off tissues and organs to create echoes. These echoes are processed by a computer to form an image on a screen, allowing doctors to assess the abdominal aorta.\n\n### Purpose\nAbdominal aorta ultrasound is useful for identifying and monitoring abdominal aortic aneurysms, which are bulges in the aorta. Early identification and monitoring of aneurysms can prevent life-threatening complications.\n\n### Procedure\nDuring the procedure, a gel is applied to the patient's abdomen, and a probe is moved across the skin to transmit and receive ultrasonic pulses. The patient may be asked to change positions or hold their breath to optimize the views. The duration of the scan for a suspected abdominal aortic aneurysm is approximately half an hour.\n\n### Precautions\nAbdominal ultrasound is generally considered safe, with minimal risk or side effects. Some patients might feel slight tingling or warmth. However, the accuracy of the ultrasound depends on the quality of the equipment and the skill of the medical personnel.\n\n### Additional Information\nUltrasound technology can also be used for treatment purposes, most frequently as a visual aid during surgical procedures.\n\n### References\n* [DC] unknown_source\n* [DC] unknown_source\n* [DC] unknown_source\n* [DC] unknown_source\n",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is Abdominal aorta ultrasound?"
+    }
+  },
+  "global": {
+    "83f458581a40acdc749f2fa5f416b13f": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Skin condition\"], \"low_level_keywords\": [\"Pimples\", \"Skin\", \"Inflammation\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne?"
+    },
+    "b41b10aeb3b79695aff4ccd1f7d8e039": {
+      "return": "Acne is a common skin disease with pimples caused by clogged pores and excess sebum, and Mercedes McLaughlin is the author of the text about it, with Accutane being a treatment option for severe cases. [KG] unknown_source, [KG] unknown_source, [KG] unknown_source, [KG] unknown_source, [KG] unknown_source\n",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne?"
+    }
+  },
+  "local": {
+    "c75ac815e2377ebcaa87248bc31bd3fa": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Skin condition\"], \"low_level_keywords\": [\"Pimples\", \"Skin\", \"Inflammation\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne?"
+    },
+    "502bda4919f88b582f3214e78464adb7": {
+      "return": "Acne is a common skin disease with pimples, inflammation, and potential scarring, caused by clogged pores and excess sebum, and can be treated with topical and oral medications, or procedures like intralesional injections. [KG] unknown_source, [KG] unknown_source\n",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne?"
     }
   }
 }
