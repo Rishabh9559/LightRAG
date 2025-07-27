@@ -31,6 +31,8 @@ patient_avatar = Image.open("images/image.png")
 # Gemini LLM function
 async def llm_model_func(prompt, system_prompt=None, history_messages=[], keyword_extraction=False, response_type="single line", **kwargs) -> str:
     client = genai.Client(api_key=gemini_api_key)
+    if prompt.lower().strip() in ["who are you", "who are you?", "what are you?", "identify yourself"]:
+        return "I am your personal AI doctor."
     if history_messages is None:
         history_messages = []
     combined_prompt = ""

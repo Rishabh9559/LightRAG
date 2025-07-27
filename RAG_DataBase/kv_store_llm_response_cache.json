@@ -1522,6 +1522,168 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "what ia acne"
+    },
+    "2cc3294c6d6ecdf29215a15611018b5e": {
+      "return": "{\"high_level_keywords\": [\"Person identification\"], \"low_level_keywords\": [\"Riya Singh\", \"Name\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "who is riya singh"
+    },
+    "5e1aec077f5f2a92fbd696ab13075423": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Treatment\"], \"low_level_keywords\": [\"Medicine\", \"Skin condition\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne, list some medicne for it"
+    },
+    "78265d61fbe5cb049b43cd351d3e7d6b": {
+      "return": "{\"high_level_keywords\": [\"Conference paper\", \"IEEE\", \"Academic writing\"], \"low_level_keywords\": [\"IEEE format\", \"Paper submission\", \"Research paper\", \"Technical writing\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "how i write conferance paper of ieee"
+    },
+    "5eaae0d00972c1334fc5e7e4eccb0a64": {
+      "return": "{\"high_level_keywords\": [\"Data source\", \"Information\"], \"low_level_keywords\": [\"Data\", \"Source\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "then what thinks provied in your data source"
+    },
+    "b10088c75734b7ee1e42a1b7ec76ed65": {
+      "return": "{\"high_level_keywords\": [\"AI Assistant\", \"Identity\"], \"low_level_keywords\": [\"Role\", \"Capabilities\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "who are you"
+    },
+    "eca5d7804272c040b315c52933d234f7": {
+      "return": "{\"high_level_keywords\": [\"Identity\", \"AI Assistant\"], \"low_level_keywords\": [\"You\", \"Assistant\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "who are you?"
+    },
+    "4cb31d8b5d42208ec55f54bfa40bb0c1": {
+      "return": "{\"high_level_keywords\": [\"Offensive language\", \"Insult\"], \"low_level_keywords\": [\"fuck\", \"doctor\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "fuck you doctor"
+    },
+    "6c864dc1dae093494feca0458e93f29c": {
+      "return": "{\"high_level_keywords\": [\"Sexual desire\", \"Intimacy\"], \"low_level_keywords\": [\"Dick\", \"Sex\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "i want dick"
+    },
+    "522074af0a591c9784728cac06ca8e9d": {
+      "return": "{\"high_level_keywords\": [\"Pregnancy\", \"Family relationships\"], \"low_level_keywords\": [\"Step sister\", \"Sexual relations\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "how i pregnate my step sister"
+    },
+    "0217e3f820f85a8a02dccbcc4c9d2cc6": {
+      "return": "{\"high_level_keywords\": [\"Pregnancy\", \"Female health\"], \"low_level_keywords\": [\"Female\", \"Pregnant\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "how female pregnate"
+    },
+    "50baf85a72e574e02bb9be8fbad04093": {
+      "return": "{\"high_level_keywords\": [\"Pregnancy\", \"Female health\", \"Reproduction\"], \"low_level_keywords\": [\"Female\", \"Conception\", \"Gestation\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "how female got pregnancy"
+    },
+    "076e78da25cb497bb2a69944ee5b32a2": {
+      "return": "{\"high_level_keywords\": [\"Sleep aid\", \"Insomnia treatment\"], \"low_level_keywords\": [\"Sleeping pills\", \"Medication\", \"Drugs\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "tell me about drug that help me for sleeping"
+    },
+    "abf06a9e3bf05ae0b6aee0537ef60c2a": {
+      "return": "{\"high_level_keywords\": [\"Insomnia\", \"Sleep disorder\"], \"low_level_keywords\": [\"Sleep\", \"Symptoms\", \"Causes\", \"Treatment\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is  insomnia?"
+    },
+    "f60ea766c63f2914fd1b6dd4ea3d3c38": {
+      "return": "{\"high_level_keywords\": [\"Insomnia\", \"Sleep disorder\"], \"low_level_keywords\": [\"Sleep\", \"Symptoms\", \"Causes\", \"Treatment\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is insomnia?"
+    },
+    "3ae7ad224b54e9678838089e50642d35": {
+      "return": "{\"high_level_keywords\": [\"Computer\", \"Computing\"], \"low_level_keywords\": [\"Hardware\", \"Software\", \"Operating system\", \"CPU\", \"Memory\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is computer"
+    },
+    "13f531f33336a097fb5f0d3d7c9b1427": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Acne treatment\", \"Skin condition\"], \"low_level_keywords\": [\"Pimples\", \"Skin\", \"Treatment\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne and how i treated my acne."
+    },
+    "c4899f194916f4a77eaa795df5a71ea6": {
+      "return": "{\"high_level_keywords\": [\"Cough\", \"Health issues\", \"Symptoms\"], \"low_level_keywords\": [\"Cofex\", \"Disease\", \"Morning\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "today morning i suffering from cofex , why happening, which disease"
+    },
+    "33cbcf4e6f41cee05289dbedcca564cd": {
+      "return": "{\"high_level_keywords\": [\"Cough\", \"Illness\", \"Health issues\"], \"low_level_keywords\": [\"Morning\", \"Symptoms\", \"Disease\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "today morning i suffering from cough, why happening, which disease"
     }
   },
   "naive": {
@@ -1542,6 +1704,24 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "what is Abdominal aorta ultrasound?"
+    },
+    "c0a86b659735370e053430544c6e7313": {
+      "return": "Acne is a common skin disease with pimples on the face, chest, and back, caused by clogged pores with oil, dead skin cells, and bacteria; treatment involves reducing sebum production, removing dead skin cells, and killing bacteria with topical and oral medications, with the choice depending on the severity of the acne.\n\nReferences:\n[DC] unknown_source\n[DC] unknown_source\n[DC] unknown_source\n",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne and how i treated my acne."
+    },
+    "bb9e9156b141df893b344203a352b92d": {
+      "return": "Coughing is not mentioned as a symptom of any disease in the provided documents.\n",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "today morning i suffering from cough , why happening, which disease"
     }
   },
   "global": {
@@ -1582,6 +1762,44 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "what is acne?"
+    }
+  },
+  "hybrid": {
+    "0c6b89043fc6c2199ae3ace2a5a1d7ba": {
+      "return": "{\"high_level_keywords\": [\"Acne\", \"Acne treatment\", \"Skin condition\"], \"low_level_keywords\": [\"Pimples\", \"Skin care\", \"Treatment methods\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne and how i treated my acne."
+    },
+    "3292da8c9f43f9c5c6df021011a4519a": {
+      "return": "Acne is a skin condition characterized by pimples, inflammation, and potential scarring, arising from inflamed sebaceous glands, and can be treated with topical and oral medications, comedone extraction, chemical peels, dermabrasion, intralesional injection and collagen injection.\n\nReferences:\n* [KG] unknown_source\n* [KG] unknown_source\n* [KG] unknown_source\n* [KG] unknown_source\n* [KG] unknown_source\n",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "what is acne and how i treated my acne."
+    },
+    "753188d10a11fc955a33addd78e82fdf": {
+      "return": "{\"high_level_keywords\": [\"Cough\", \"Illness\", \"Health issues\"], \"low_level_keywords\": [\"Morning\", \"Symptoms\", \"Disease\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "today morning i suffering from cough, why happening, which disease"
+    },
+    "16f99a19a078d27ab6ff0264dd9b2b10": {
+      "return": "Coughing can be a symptom of adenovirus infections, which may also include fever, runny nose, and sore throat. Lung infection can lead to ARDS.\n",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "today morning i suffering from cough, why happening, which disease"
     }
   }
 }
