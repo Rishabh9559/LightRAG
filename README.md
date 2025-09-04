@@ -11,6 +11,9 @@ This README gives a quick orientation, setup steps, and pointers to the main scr
 - Knowledge graph generation and interactive visualization
 - Example medical assistance script and demo video
 
+## demo Video
+  
+
 ## Assumptions
 
 - The repository is a local demo/research project (not production-ready).
@@ -36,13 +39,13 @@ pip install -r requirements.txt
 
 3. Inspect or run an example script. Two entry points in this repo are:
 
-- `medical_Assistance.py` — a script focused on medical question answering utilities and examples.
+- `medical_Assistance.py` — a script focused on medical question answering utilities.
 - `light_RAG.py` — a central RAG orchestration/demo script.
 
 Run a script with:
 
 ```powershell
-python medical_Assistance.py
+streamlit run medical_Assistance.py
 # or
 python light_RAG.py
 ```
@@ -65,31 +68,3 @@ Note: The exact CLI arguments or runtime behaviour depend on the script internal
 
 - `RAG_DataBase/graph_chunk_entity_relation.graphml` — example graph exported from the pipeline.
 - JSON stores such as `vdb_chunks.json`, `vdb_entities.json`, and `vdb_relationships.json` contain the serialized local indices.
-
-Back up these files before running any scripts that overwrite or rebuild the database.
-
-## How to contribute
-
-1. Create an issue describing the bug, feature, or improvement.
-2. Fork the repo and make changes on a feature branch.
-3. Add tests or sample runs when you change core functionality.
-4. Submit a pull request describing the changes and why they help the project.
-
-## Suggested next steps (optional enhancements)
-
-- Add a command-line interface (argparse / click) to `light_RAG.py` and `medical_Assistance.py` for clearer invocation.
-- Add unit tests and a CI workflow (GitHub Actions) to run linting and tests automatically.
-- Add a `README`-level example of a full end-to-end run: ingest -> index -> query -> evaluate.
-
-## License
-
-This repository does not include an explicit license file. Add a `LICENSE` file (for example, MIT) if you want to allow reuse. Until a license is added, assume default copyright applies.
-
-## Contact / Author
-
-Repository: LightRAG
-Owner: Rishabh9559
-
----
-
-If you want, I can also: add a short badge section, generate a minimal `LICENSE` file, or auto-detect and document actual CLI options from the scripts.
