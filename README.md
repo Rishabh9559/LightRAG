@@ -1,8 +1,8 @@
 # LightRAG
 
-LightRAG is a lightweight Retrieval-Augmented Generation (RAG) research/demo repository focused on medical assistance and knowledge-graph backed question answering. The project provides utilities for chunking documents, inserting documents into a local vector/knowledge store, visualizing knowledge graphs, and running simple RAG-style experiments.
+LightRAG is a lightweight Retrieval-Augmented Generation (RAG)  focused on medical assistance and knowledge-graph backed question answering. The project provides utilities for chunking documents, inserting documents into a local vector/knowledge store, visualizing knowledge graphs, and running simple RAG-style experiments.
 
-This README gives a quick orientation, setup steps, and pointers to the main scripts and data in the repo.
+
 
 ## Key features
 
@@ -12,7 +12,8 @@ This README gives a quick orientation, setup steps, and pointers to the main scr
 - Example medical assistance script and demo video
 
 ## demo Video
-  
+
+  ![LightRAG doctor demo](doctorDemo.gif)
 
 ## Assumptions
 
