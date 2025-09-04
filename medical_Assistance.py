@@ -45,7 +45,7 @@ async def llm_model_func(prompt, system_prompt=None, history_messages=[], keywor
     response = client.models.generate_content(
         model="gemini-2.0-flash",
         contents=[combined_prompt],
-        config=types.GenerateContentConfig(max_output_tokens=500, temperature=0.1),
+        config=types.GenerateContentConfig(max_output_tokens=500, temperature=1),
     )
     return response.text
 
