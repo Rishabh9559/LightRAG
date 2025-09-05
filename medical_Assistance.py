@@ -11,7 +11,7 @@ from google.genai import types
 import numpy as np
 import nest_asyncio
 from PIL import Image
-import  html
+
 
 # Windows fix for event loop
 if sys.platform.startswith("win"):
