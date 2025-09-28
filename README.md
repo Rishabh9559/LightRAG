@@ -13,7 +13,7 @@ LightRAG is a lightweight Retrieval-Augmented Generation (RAG)  focused on medic
 
 ## demo Video
 
-  ![LightRAG doctor demo](doctorDemo.gif)
+  ![LightRAG doctor demo](demo.gif)
 
 ## Assumptions
 
