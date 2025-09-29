@@ -1,71 +1,87 @@
-# LightRAG
-
-LightRAG is a lightweight Retrieval-Augmented Generation (RAG)  focused on medical assistance and knowledge-graph backed question answering. The project provides utilities for chunking documents, inserting documents into a local vector/knowledge store, visualizing knowledge graphs, and running simple RAG-style experiments.
 
 
 
-## Key features
+# LightRAG-Powered Medical Chatbot
 
-- Document chunking and indexing tooling
-- Lightweight local vector/knowledge store (JSON-based in `RAG_DataBase/`)
-- Knowledge graph generation and interactive visualization
-- Example medical assistance script and demo video
+Our **medical chatbot** is an AI-driven, retrieval-augmented assistant designed to provide **evidence-grounded**, **context-aware medical answer**s. It integrates a **LightRAG** pipeline with **ChromaDB** for **hybrid vector and graph storag**e, enabling efficient and accurate retrieval of relevant medical knowledge. By leveraging **SentenceTransformer** embeddings for semantic understanding and a powerful LLM for answer generation, the system overcomes the limitations of standalone language models, achieving **83% response accuracy**.
 
+This approach combines graph and vector retrieval with modern LLM generation to deliver reliable, contextually accurate responses. The chatbot also features an intuitive **Streamlit** interface, making it accessible for users seeking trustworthy healthcare guidance. Overall, this project demonstrates how retrieval-augmented AI systems can enhance the reliability and usability of medical conversational agents.
+
+>  **Disclaimer:** This chatbot is intended **for educational and informational purposes only**. It is **NOT** a substitute for professional medical advice, diagnosis, or treatment. Always consult a licensed healthcare provider for medical concerns.
+
+---
 ## demo Video
 
   ![LightRAG doctor demo](demo.gif)
 
-## Assumptions
+  
+##  Key Features
 
-- The repository is a local demo/research project (not production-ready).
-- Python 3.8+ is assumed. If you use a newer Python, the code should still work in most cases.
-- The project uses plain Python scripts; a `requirements.txt` is provided for dependencies.
+- **Hybrid Retrieval (Graph + Vector)** via LightRAG for more accurate, grounded answers  
+- **Semantic Understanding** using SentenceTransformer embeddings  
+- **ChromaDB Integration** for fast vector similarity + relational knowledge lookups  
+- **Medical Query Handling** with ~83% retrieval-grounded accuracy (based on internal evaluation)  
+- **Interactive Streamlit UI** for Q&A, guidance-style answers, and context inspection  
+- **Modular RAG Pipeline** (ingestion → indexing → retrieval → answer synthesis)  
+- **Hallucination Mitigation** via context filtering + answer provenance display  
 
-If these assumptions are incorrect for your environment, adjust the Python version and dependency setup accordingly.
 
-## Quick start
 
-1. Create and activate a virtual environment (Windows PowerShell example):
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+```
+.
+├─ RAG_DataBase/              # (Persisted Chroma / vector store or DB artifacts)
+├─ images/                    # Static images (used in documentation / UI)
+├─ lib/                       # Supporting library code (place shared modules here)
+├─ .gitignore
+├─ RAG_evalution.ipynb        # Jupyter notebook (NOTE: 'evaluation' misspelled)
+├─ README.md
+├─ chunking.py                # Document chunking utilities
+├─ demo.gif                   # Animated demo of the app
+├─ graph_visible.py           # Script to build or visualize knowledge graph (outputs HTML)
+├─ insert_doc.py              # Ingest documents into vector / graph storage
+├─ knowledge_graph.html       # Generated interactive graph (output artifact)
+├─ light_RAG.py               # Core RAG pipeline (retrieval + generation)
+├─ medical_Assistance.py      # Chat / Streamlit (or CLI) interface for user Q&A
+├─ medical_book.txt           # Source medical corpus (sample knowledge base)
+└─ requirements.txt
 ```
 
-2. Install dependencies:
 
-```powershell
-pip install -r requirements.txt
-```
+## High-Level Workflow
 
-3. Inspect or run an example script. Two entry points in this repo are:
+1. Prepare or update medical source text (`medical_book.txt` or additional documents).
+2. Run chunking (`chunking.py`) to produce manageable text segments.
+3. Ingest chunks and build / update vector (and optional graph) storage via `insert_doc.py`.
+4. (Optional) Generate / update a knowledge graph (`graph_visible.py` → `knowledge_graph.html`).
+5. Serve the assistant (`medical_Assistance.py`) which internally calls retrieval logic (from `light_RAG.py`).
+6. User asks a question → relevant chunks retrieved → LLM synthesizes grounded answer.
+7. Evaluate retrieval / answer quality using the notebook.
 
-- `medical_Assistance.py` — a script focused on medical question answering utilities.
-- `light_RAG.py` — a central RAG orchestration/demo script.
+---
 
-Run a script with:
 
-```powershell
+
+
+##  Run the Assistant
+
+If `medical_Assistance.py` uses Streamlit:
+```bash
 streamlit run medical_Assistance.py
-# or
-python light_RAG.py
 ```
 
-Note: The exact CLI arguments or runtime behaviour depend on the script internals. If a script expects a web UI or additional setup, check that file's top comments for usage notes.
 
-## Project layout
+##  Evaluation
 
-- `chunking.py` — tools to split large documents into chunks suitable for embedding/indexing.
-- `insert_doc.py` — utilities to insert documents/chunks into the local stores.
-- `light_RAG.py` — main demo/orchestration for RAG experiments.
-- `medical_Assistance.py` — example script tailored to medical assistance use-cases.
-- `graph_visible.py` — graph generation and visualization helper.
-- `RAG_DataBase/` — local JSON graph and vector/kv stores used by the demos (contains graphml and JSON stores).
-- `lib/` — front-end assets used by the HTML visualization (`vis-network`, `tom-select`, etc.).
-- `requirements.txt` — Python package list for the project.
-- `LightRAG demo video.mp4` — a short demo video showing the project in action.
+Open the notebook:
 
-## Data and artifacts
 
-- `RAG_DataBase/graph_chunk_entity_relation.graphml` — example graph exported from the pipeline.
-- JSON stores such as `vdb_chunks.json`, `vdb_entities.json`, and `vdb_relationships.json` contain the serialized local indices.
+
+
+
+
+
+
+Developed by **Rishab Kushwaha**  
+GitHub: [Rishabh9559](https://github.com/Rishabh9559)
+
