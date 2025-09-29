@@ -73,7 +73,7 @@ streamlit run medical_Assistance.py
 
 ##  Evaluation
 
-Open the notebook:
+  ![LightRAG evalution](images/bertscore_rag_comparison.png)
 
 
 
