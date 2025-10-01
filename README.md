@@ -82,6 +82,6 @@ streamlit run medical_Assistance.py
 
 
 
-Developed by **Rishab Kushwaha**  
+Developed by **Rishabh Kushwaha**  
 GitHub: [Rishabh9559](https://github.com/Rishabh9559)
 
