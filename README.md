@@ -71,9 +71,9 @@ streamlit run medical_Assistance.py
 ```
 
 
-##  Evaluation
 
-  ![LightRAG evalution](images/bertscore_rag_comparison.png)
+
+
 
 
 
