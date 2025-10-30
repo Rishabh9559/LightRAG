@@ -12,7 +12,7 @@ This approach combines graph and vector retrieval with modern LLM generation to 
 ---
 ## demo Video
 
-  ![LightRAG doctor demo](demo.gif)
+  ![LightRAG doctor demo](demo.png)
 
   
 ##  Key Features
